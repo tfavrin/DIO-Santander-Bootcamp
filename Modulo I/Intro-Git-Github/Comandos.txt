@@ -1,0 +1,12 @@
+Comandos Git Bash
+ls: listar itens em uma pasta
+ls -a: listar itens anônimos em uma pasta
+git init: inicializar o Git (versionando as pastas/arquivos) em um diretório
+mkdir (nome da pasta): criar pasta pelo Git
+cd (nome da pasta/): caminhar entre as pastas
+git config --global user.email "(e-mail)": adicionar e-mail de autoria às alterações no GIT
+git config --global user.name (nome): adicionar nome de autoria às alterações no GIT
+git add *(ou nome do arquivo/pasta que foi alterada): adicionar todas as alterações
+git commit -m "(mensagem sobre as alterações ao Git)": geração do commit (versionamento)
+git status: revela o status dos arquivos (untracked, tracked, staged)
+mv (nome arquivo) ./(nome pasta)/: mover um arquivo para uma pasta
