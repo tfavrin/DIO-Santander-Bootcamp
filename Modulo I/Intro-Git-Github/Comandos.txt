@@ -6,7 +6,9 @@ mkdir (nome da pasta): criar pasta pelo Git
 cd (nome da pasta/): caminhar entre as pastas
 git config --global user.email "(e-mail)": adicionar e-mail de autoria às alterações no GIT
 git config --global user.name (nome): adicionar nome de autoria às alterações no GIT
-git add *(ou nome do arquivo/pasta que foi alterada): adicionar todas as alterações
+git add .(ou nome do arquivo/pasta que foi alterada): adicionar todas as alterações (local)
 git commit -m "(mensagem sobre as alterações ao Git)": geração do commit (versionamento)
 git status: revela o status dos arquivos (untracked, tracked, staged)
 mv (nome arquivo) ./(nome pasta)/: mover um arquivo para uma pasta
+git push origin main: enviando todos os commits locais para a nuvem (site GitHub)
+git pull: trazer as alterações feitas no servidor para os commits locais
