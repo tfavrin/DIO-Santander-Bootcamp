@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Fundamentos: Align Content</title>
+    <style media="screen">
+      .container{
+        height: 400px;
+        max-width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        border: 1px solid black;
+      }
+
+      .item{
+        background-color: orangered;
+        padding: 0 5px;
+        margin: 5px;
+        flex: 1;
+        text-align: center;
+        color: white;
+      }
+
+      .stretch{
+        align-content: stretch;
+      }
+
+      .center{
+        align-content: center;
+      }
+
+      .start{
+        align-content: flex-start;
+      }
+
+      .end{
+        align-content: flex-end;
+      }
+
+      .space-around{
+        align-content: space-around;
+      }
+
+      .space-between{
+        align-content: space-between;
+      }
+    </style>
+
+  </head>
+  <body>
+    <p>stretch</p>
+    <div class="container stretch">
+      <div class="item">quis nostrud exercitation ullamco laboris</div>
+      <div class="item"> nisi ut aliquip ex ea commodo consequat</div>
+      <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+      <div class="item">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+      <div class="item">Ut enim ad minim veniam</div>
+      <div class="item">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      <div class="item">Visualização</div>
+    </div>
+
+    <p>center</p>
+    <div class="container center">
+      <div class="item">quis nostrud exercitation ullamco laboris</div>
+      <div class="item"> nisi ut aliquip ex ea commodo consequat</div>
+      <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+      <div class="item">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+      <div class="item">Ut enim ad minim veniam</div>
+      <div class="item">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      <div class="item">Visualização</div>
+    </div>
+
+    <p>flex-start</p>
+    <div class="container start">
+      <div class="item">quis nostrud exercitation ullamco laboris</div>
+      <div class="item"> nisi ut aliquip ex ea commodo consequat</div>
+      <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+      <div class="item">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+      <div class="item">Ut enim ad minim veniam</div>
+      <div class="item">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      <div class="item">Visualização</div>
+    </div>
+
+    <p>flex-end</p>
+    <div class="container end">
+      <div class="item">quis nostrud exercitation ullamco laboris</div>
+      <div class="item"> nisi ut aliquip ex ea commodo consequat</div>
+      <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+      <div class="item">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+      <div class="item">Ut enim ad minim veniam</div>
+      <div class="item">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      <div class="item">Visualização</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space-around">
+      <div class="item">quis nostrud exercitation ullamco laboris</div>
+      <div class="item"> nisi ut aliquip ex ea commodo consequat</div>
+      <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+      <div class="item">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+      <div class="item">Ut enim ad minim veniam</div>
+      <div class="item">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      <div class="item">Visualização</div>
+    </div>
+
+    <p>space-between</p>
+    <div class="container space-between">
+      <div class="item">quis nostrud exercitation ullamco laboris</div>
+      <div class="item"> nisi ut aliquip ex ea commodo consequat</div>
+      <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+      <div class="item">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</div>
+      <div class="item">Ut enim ad minim veniam</div>
+      <div class="item">quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+      <div class="item">Visualização</div>
+    </div>
+  </body>
+</html>
