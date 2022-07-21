@@ -74,7 +74,7 @@ body{
   height: 6rem;
 }
 
-.login-buttom {
+.login-button {
   background-color: #0095f6;
   border-radius: 8px;
   text-align: center;
@@ -83,7 +83,7 @@ body{
   padding: 8px;
 }
 
-.logout-buttom{
+.logout-button{
   color: #0095f6;
   margin-top: 1rem;
   margin-bottom: 1rem;
