@@ -1,0 +1,160 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+body{
+  width: 100%;
+  min-height: 100vh;
+  background-color: rgb(243, 243, 243);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.instagram-home{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 50%;
+  height: 100vh;
+}
+
+.home-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+
+.home-img img{
+  height: 50rem;
+}
+
+.home-login{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 50%;
+  min-height: 34rem;
+}
+
+.box-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid lightgray;
+    width: 100%;
+    padding: 10px 0; <!alteração própria. DIO: 1.3rem 0>
+}
+
+.box-login:nth-child(1){
+  min-height: 19rem;
+}
+
+.insta-logo {
+  height: 3rem;
+}
+
+.avatar img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 50%;
+  height: 6rem;
+}
+
+.login-buttom {
+  background-color: #0095f6;
+  border-radius: 8px;
+  text-align: center;
+  color: #fff;
+  line-height: 20px;
+  padding: 8px;
+}
+
+.logout-buttom{
+  color: #0095f6;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.not-account {
+  color: rgb(160, 160, 160);
+  margin: 0.5rem;
+}
+
+.classic-link {
+  color: #0095f6;
+}
+
+.app-buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1rem;
+}
+
+.get-apps{
+  padding-top: 1rem;
+}
+
+.get-text{
+  text-align: center;
+}
+
+.get-app-button{
+  height: 3.5rem;
+  width: 11rem;
+  background-size: cover;
+  margin: 0.5rem;
+}
+
+.get-app-button:nth-child(1){
+  background-image: url('./images/get-apple.png');
+}
+
+.get-app-button:nth-child(2){
+  background-image: url('./images/get-google.png');
+}
+
+/* media tablet */
+@media (max-width: 1024px) {
+  .instagram-home{
+    width: 90%;
+  }
+}
+
+/* media smartphone */
+@media (max-width: 650px) {
+  body {
+    background-color: #fff;
+  }
+
+  .instagram-home {
+    width: 90%;
+  }
+
+  .home-img {
+    display: none;
+  }
+
+  .home-login {
+    width: 100%;
+  }
+
+  .box-login {
+    border: none;
+  }
+}
